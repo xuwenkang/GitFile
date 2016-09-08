@@ -1,0 +1,19 @@
+每个项目配置 $ ssh-keygen -t rsa -C "your_email@youremail.com" 
+$ git config --global user.name "xuwenkang"
+$ git config --global user.email "1078905796@qq.com"
+
+先gitpull origin master 更新本地库
+
+ssh -T git@github.com
+pass:x10086
+
+1、mkdir "名字"
+2、cd "名字"
+3、git init
+4、git commit -m 'test' 说明
+5、git remote rm origin 
+6、git remote add origin git@github.com:XXX/XXX.git 
+git push -u origin master
+
+
+执行语句 git push -u origin master即可完成代码上传到github 
